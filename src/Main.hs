@@ -1,15 +1,15 @@
 module Main where
 
 main :: IO ()
-main = haskellSays "Hello, World!"
+main = haskellSay "Typical HaskellSay output"
 
 -- | Have the Haskell logo say something.
-haskellSays :: String -> IO ()
-haskellSays str = mapM_ putStrLn $ headerLines ++ content ++ haskellLogoSays
+haskellSay :: String -> IO ()
+haskellSay str = mapM_ putStrLn $ headerLines ++ content ++ haskellLogoSay
   where
     headerLines = [
-      " " ++ replicate 58 '-',
-      "/" ++ replicate 58 ' ' ++ "\\"
+      "  " ++ replicate 56 '_',
+      " /" ++ replicate 56 ' ' ++ "\\"
       ]
     content = map padLine (wrapLine 56 str)
 
@@ -21,9 +21,8 @@ padLine content = ("| " ++) content ++ rightPadding ++ "|"
     paddingWidth = 60 - 2 - length content - 1
 
 
-haskellLogoSays :: [String]
-haskellLogoSays = [
-    "\\                                                          /",
+haskellLogoSay :: [String]
+haskellLogoSay = [
     " \\____       _____________________________________________/",
     "      \\    /",
     "       \\  /",
