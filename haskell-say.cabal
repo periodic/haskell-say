@@ -4,7 +4,7 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 2bb725ab8368c370f463a1efd049798810526feab0f2244eea2af2add41e2f7f
+-- hash: 619abd985513081f137898ab25fc7be36fb12e1e280cea9a7c94311289297f87
 
 name:           haskell-say
 version:        0.1.0.0
@@ -29,7 +29,7 @@ source-repository head
 
 library
   exposed-modules:
-      Main
+      HaskellSay
   other-modules:
       Paths_haskell_say
   hs-source-dirs:
@@ -43,7 +43,7 @@ executable haskell-say-exe
   other-modules:
       Paths_haskell_say
   hs-source-dirs:
-      src
+      app
   ghc-options: -threaded -rtsopts -with-rtsopts=-N
   build-depends:
       base >=4.7 && <5

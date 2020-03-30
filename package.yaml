@@ -24,7 +24,7 @@ library:
 executables:
   haskell-say-exe:
     main:                Main.hs
-    source-dirs:         src
+    source-dirs:         app
     ghc-options:
     - -threaded
     - -rtsopts

@@ -1,7 +1,4 @@
-module Main where
-
-main :: IO ()
-main = haskellSay "Hello, World!"
+module HaskellSay where
 
 -- | Have the Haskell logo say something.
 haskellSay :: String -> IO ()
