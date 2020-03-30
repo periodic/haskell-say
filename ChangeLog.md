@@ -1,3 +1,3 @@
-# Changelog for haskell-says
+# Changelog for haskell-say
 
 ## Unreleased changes
