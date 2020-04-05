@@ -4,13 +4,13 @@ cabal-version: 1.12
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 965023b30aeea33af0c9610d0705e126a5bbc242bb095172cbbe7ee5f84dfd31
+-- hash: 1d6c4854cbf0a466ffee1b2705284510316d2aaafe0fd44da451c252d096fdd9
 
 name:           haskell-say
 version:        1.0.0.0
 synopsis:       Let the Haskell logo talk to your users!
 description:    Please see the README on GitHub at <https://github.com/periodic/haskell-say#readme>
-category:       Web
+category:       Console,Text,Utils
 homepage:       https://github.com/periodic/haskell-say#readme
 bug-reports:    https://github.com/periodic/haskell-say/issues
 author:         Drew Haven

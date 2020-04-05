@@ -11,7 +11,7 @@ extra-source-files:
 - ChangeLog.md
 
 synopsis:            Let the Haskell logo talk to your users!
-category:            Web
+category:            Console,Text,Utils
 
 description:         Please see the README on GitHub at <https://github.com/periodic/haskell-say#readme>
 
