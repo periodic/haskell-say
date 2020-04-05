@@ -1,4 +1,4 @@
-module HaskellSay where
+module HaskellSay (haskellSay) where
 
 -- | Have the Haskell logo say something.
 haskellSay :: String -> IO ()
